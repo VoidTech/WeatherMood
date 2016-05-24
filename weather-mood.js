@@ -1,5 +1,5 @@
 var week = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
-var urlWeatherNow = "http://apidev.accuweather.com/currentconditions/v1/314929.json?language=en&apikey=hoArfRosT1215";
+var urlWeatherNow = "https://apidev.accuweather.com/currentconditions/v1/314929.json?language=en&apikey=hoArfRosT1215";
             $.get(urlWeatherNow, function(data,textStatus,jqXHR){
               var today = new Date().getDay();
               var responseBody = data;
